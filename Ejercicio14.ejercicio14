@@ -1,0 +1,18 @@
+Algoritmo Impares_Pares
+	Definir n,i,sumaimp,sumapar Como Entero
+	i <- 1
+	sumapar <- 0
+	sumaimp <- 0
+	Escribir 'ingrese un numero'
+	Leer n
+	Mientras i<=n Hacer
+		Si i MOD 2=0 Entonces
+			sumapar <- sumapar+i
+		SiNo
+			sumaimp <- sumaimp+i
+		FinSi
+		i <- i+1
+	FinMientras
+	Escribir 'la suma de los pares =',sumapar
+	Escribir 'la suma de los impares =',sumaimp
+FinAlgoritmo

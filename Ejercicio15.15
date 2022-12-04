@@ -1,0 +1,15 @@
+Algoritmo Cantidad_Cobrar_Cliente
+	Definir mes Como Caracter
+	Definir importe, total como real;
+	importe=0;total=0;
+	Imprimir "Escribe el importe de la compra: ";
+	Leer importe;
+	Imprimir "Introduces el mes: ";
+	Leer mes;
+	Si mes = "octubre"O mes="Octubre" O mes="OCTUBRE" Entonces 
+		total = importe-(importe*0.85);
+	SiNo
+		total = importe;
+	FinSi
+	Escribir "El Valor Total a Pagar es:", total;
+FinAlgoritmo
